@@ -1,4 +1,19 @@
 header{
-  width: 1110;
-  background-color: #ff0000;
+ /* display: flex;*/
+  justify-content: space-around;
+  max-width: 1110px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;  
+  text-align: center;  
+}
+.logo{
+  float: left;
+}
+.icon{
+  display: inline-block;
+}
+.menu{
+  float:right;
 }
